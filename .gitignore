@@ -2,7 +2,7 @@
 /dist
 /node_modules
 /postgres_data
-/src/database/
+/src/database/migrations
 .env
 
 # Logs

@@ -51,7 +51,10 @@ $ npm run test:cov
 ```
 
 ## APIs (GET, POST, PUT y DELETE)
-
+```bash
 /api/users
+
 /api/alumnos
+
 /api/cursos
+```
