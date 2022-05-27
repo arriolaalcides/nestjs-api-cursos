@@ -10,7 +10,7 @@ import {
 } from '@nestjs/common';
 import { Public } from 'src/auth/decorators/public.decorator';
 import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
-import { AlumnosService } from './alumnos.service';
+import { AlumnosService } from '../service/alumnos.service';
 /*import { CreateAlumnoDto } from './dto/create-alumno.dto';
 import { UpdateAlumnoDto } from './dto/update-alumno.dto';*/
 

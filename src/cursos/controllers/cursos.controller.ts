@@ -11,7 +11,7 @@ import {
 } from '@nestjs/common';
 import { Public } from 'src/auth/decorators/public.decorator';
 import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
-import { CursosService } from './cursos.service';
+import { CursosService } from './../service/cursos.service';
 //import { CreateCursoDto } from './dto/create-curso.dto';
 //import { UpdateCursoDto } from './dto/update-curso.dto';
 

@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 
 /*import { CreateAlumnoDto } from './dto/create-alumno.dto';
 import { UpdateAlumnoDto } from './dto/update-alumno.dto';*/
-import { Alumno } from './entities/alumno.entity';
+import { Alumno } from '../entities/alumno.entity';
 
 @Injectable()
 export class AlumnosService {
